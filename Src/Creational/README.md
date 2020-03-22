@@ -8,8 +8,8 @@
   - Using .NET 4's Lazy<T> type
 
 - Factory
- - Factory Method
- - Abstract Factory
+  - Factory Method
+  - Abstract Factory
  
 - Builder
 
