@@ -1,13 +1,37 @@
 ## Design Patterns C# Sample
 
+- Creational
+  - Singleton pattern
+  - Abstract Factory
+  - Factory Method
+  - Builder
+  - Object Pool
+  - Prototype
+  
+- Structural
+  - Adapter
+  - Bridge
+  - Composite
+  - Decorator
+  - Facade
+  - Flyweight
+  - Private Class Data
+  - Proxy
 
-- Specification pattern: The pattern is frequently used in the context of domain-driven design.
+- Behavioral
+  - Specification
+  - Chain of responsibility
+  - Command
+  - Interpreter
+  - Iterator
+  - Mediator
+  - Memento
+  - Null Object
+  - Observer
+  - State
+  - Strategy
+  - Template method
+  - Visitor
+  
 
-- Singleton pattern
-  - No Thread Safe Singleton
-  - Thread Safety Singleton
-  - Thread Safety Singleton using Double Check Locking
-  - Thread Safe Singleton without using locks and no lazy instantiation
-  - Using .NET 4's Lazy<T> type
 
-- Factory pattern
