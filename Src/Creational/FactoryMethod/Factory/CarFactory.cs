@@ -4,7 +4,7 @@ using FactoryMethod.Car;
 
 namespace FactoryMethod.Factory
 {
-    public class CarFactory
+    public abstract class CarFactory
     {
         public static ICar Car(CarsBrand carsBrand)
         {
