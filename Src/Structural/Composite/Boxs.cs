@@ -2,16 +2,16 @@
 
 namespace Composite
 {
-    public class Boxs : Component
+    public class Boxs : Component, IComposite
     {
         protected List<Component> _children = new List<Component>();
 
-        public override void Add(Component component)
+        public void Add(Component component)
         {
             this._children.Add(component);
         }
 
-        public override void Remove(Component component)
+        public void Remove(Component component)
         {
             this._children.Remove(component);
         }
