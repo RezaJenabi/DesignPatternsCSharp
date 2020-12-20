@@ -1,10 +1,10 @@
-﻿namespace Builder
+﻿namespace Builder.Models
 {
-    public class SportBuilder : ICarBuilder
+    public class SUVBuilder : ICarBuilder
     {
         private Car _Car = new Car();
 
-        public SportBuilder()
+        public SUVBuilder()
         {
             this.Reset();
         }
@@ -21,12 +21,12 @@
 
         public void SetBody()
         {
-            this._Car.SetBody(BodyType.Sports);
+            this._Car.SetBody(BodyType.SUV);
         }
 
         public void SetEngine()
         {
-            this._Car.SetEngine(EngineType.Sports);
+            this._Car.SetEngine(EngineType.Diesal);
         }
 
         public Car GetCar()

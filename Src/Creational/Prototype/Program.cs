@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Prototype.Models;
+using System;
 
 namespace Prototype
 {

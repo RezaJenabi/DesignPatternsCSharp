@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Composite
+namespace Composite.Models
 {
     public class Boxs : Component, IComposite
     {
@@ -8,12 +8,12 @@ namespace Composite
 
         public void Add(Component component)
         {
-            this._children.Add(component);
+            _children.Add(component);
         }
 
         public void Remove(Component component)
         {
-            this._children.Remove(component);
+            _children.Remove(component);
         }
 
         public override string Operation()
@@ -21,10 +21,10 @@ namespace Composite
             int i = 0;
             string result = "Box[ ";
 
-            foreach (Component component in this._children)
+            foreach (Component component in _children)
             {
                 result += component.Operation();
-                if (i != this._children.Count - 1)
+                if (i != _children.Count - 1)
                 {
                     result += " + ";
                 }

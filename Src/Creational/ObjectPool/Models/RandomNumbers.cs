@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ObjectPool
+namespace ObjectPool.Models
 {
     public class RandomNumbers
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Concurrent;
 
-namespace ObjectPool
+namespace ObjectPool.Models
 {
     public class ObjectPool<T>
     {

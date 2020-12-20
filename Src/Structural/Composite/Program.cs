@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Composite.Models;
+using System;
 
 namespace Composite
 {

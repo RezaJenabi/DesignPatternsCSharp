@@ -1,4 +1,4 @@
-﻿namespace Composite
+﻿namespace Composite.Models
 {
     public interface IComposite
     {

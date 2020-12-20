@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Adapter.Models;
+using System;
 
 namespace Adapter
 {

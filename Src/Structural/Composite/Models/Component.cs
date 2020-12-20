@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Composite
+namespace Composite.Models
 {
     public abstract class Component
     {

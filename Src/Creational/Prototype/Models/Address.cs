@@ -1,4 +1,4 @@
-﻿namespace Prototype
+﻿namespace Prototype.Models
 {
     public class Address
     {

@@ -1,4 +1,4 @@
-﻿namespace Adapter
+﻿namespace Adapter.Models
 {
     public class RailAdapter : IRailAdapter
     {

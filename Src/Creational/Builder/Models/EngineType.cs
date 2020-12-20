@@ -1,4 +1,4 @@
-﻿namespace Builder
+﻿namespace Builder.Models
 {
     public enum EngineType
     {

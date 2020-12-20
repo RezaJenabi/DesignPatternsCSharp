@@ -1,4 +1,4 @@
-﻿namespace Prototype
+﻿namespace Prototype.Models
 {
     public class Person
     {
@@ -18,12 +18,12 @@
 
         public Person ShallowCopy()
         {
-            return (Person)this.MemberwiseClone();
+            return (Person)MemberwiseClone();
         }
 
         public Person DeepCopy()
         {
-            Person clone = (Person)this.MemberwiseClone();
+            Person clone = (Person)MemberwiseClone();
 
             Address address = new Address(Address.GetStreet());
 
